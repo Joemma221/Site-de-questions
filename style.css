@@ -1,0 +1,135 @@
+#question-box {
+    display: flex;
+    text-align: center;
+    margin: 50px;
+    justify-content: center;
+}
+
+label{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#valider{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #e61313;
+    color: white;
+    margin-top: 20px;
+}
+
+#nom{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 150px;
+    background-color: rgba(168, 79, 79, 0.8);
+    text-align: center;
+}
+
+.prefere{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-style: normal;
+    margin-bottom: 20px;
+    text-align: center;
+    border : 10px solid rgb(0, 0, 0);
+}
+
+.titre{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: Lato, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    margin-bottom: 20px;
+    text-align: center;
+    border : 10px solid rgb(0, 0, 0);
+}
+
+.ou{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    border: 2px 2px 4px #000000;
+    font-family: poppins;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 80px;
+    margin-top: 80px;
+    background-color: rgba(168, 79, 79, 0.8);
+}
+
+.button {
+    font-size: 30px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #e61313;
+    color: white;
+}
+
+.button:hover{
+    font-size: 30px;
+    padding: 20px 40px;
+    border: double black;
+    border-radius: 10px;
+    background-color: #6eda73;
+    box-shadow: #000000;
+}
+
+.button:active{
+    font-size: 30px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #008f05;
+}
+
+#reponse {
+    display: flex;
+    text-align: center;
+    margin: 50px;
+    justify-content: center;
+}
+
+li{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #07e90f;
+    color: white;
+}

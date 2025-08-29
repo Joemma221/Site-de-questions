@@ -2,7 +2,14 @@ let questionBox = document.getElementById("question-box");
 let reponseBox = document.getElementById("reponse");
 let choix1 = document.getElementById("button1");
 let choix2 = document.getElementById("button2");
-
+nom.style.display = "block";
+questionBox.style.display = "none";
+reponseBox.style.display = "none";
+let valider = document.getElementById("valider");
+let name = document.getElementById("name");
+valider.addEventListener("click", () => {
+  if (name.value !== "") {
+    nom.style.display = "none";
 questionBox.style.display = "block";
 reponseBox.style.display = "none";
 
@@ -30,6 +37,11 @@ buttons.forEach((btn) => {
             console.log("Questions posées :", questionsPosees);
             questionBox.style.display = "none";
             reponseBox.style.display = "block";
+            let texte = document.createElement("h1");
+            texte.innerText = name.value + ", tu as préféré :";
+            document.getElementById("reponse").insertBefore(texte, document.getElementById("liste"));
+            let index;
+            texte.classList.add("prefere");
           for (index = 0; index < questionsPosees.length; index++) {
             let liste = document.createElement("li");
             if (questionsPosees[index] === questions[index][0]) {
@@ -43,4 +55,5 @@ buttons.forEach((btn) => {
         }
     });
 });
+}});
 
